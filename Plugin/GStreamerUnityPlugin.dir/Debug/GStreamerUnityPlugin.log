@@ -1,0 +1,223 @@
+﻿  Building Custom Rule E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeLists.txt
+  AudioAppSinkHandler.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\AudioAppSinkHandler.cpp(80,14): warning C4244: “初始化”: 从“gsize”转换到“guint”，可能丢失数据
+  CMyListener.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  CMySink.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\gio/gdatagrambased.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  CMySrc.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\gio/gdatagrambased.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  CoreAPI.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  CustomAudioGrabber.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CustomAudioGrabber.cpp(141,28): warning C4267: “return”: 从“size_t”转换到“mray::uint”，可能丢失数据
+  GStreamerCore.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst/video/video-anc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\gio/gdatagrambased.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  GstAppNetAudioStreamer.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  GstAudioSampler.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  GstCustomDataStreamer.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  GstCustomDataPlayer.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomDataPlayer.cpp(243,16): warning C4244: “初始化”: 从“gsize”转换到“guint”，可能丢失数据
+  GstCustomVideoPlayer.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  GstCustomVideoStreamer.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\gio/gdatagrambased.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  GstNetworkAudioPlayer.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioPlayer.cpp(71,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioPlayer.cpp(184,75): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+  GstNetworkAudioStreamer.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioStreamer.cpp(51,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioStreamer.cpp(82,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioStreamer.cpp(97,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioStreamer.cpp(139,26): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  GstNetworkMultipleVideoPlayer.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkMultipleVideoPlayer.h(19,1): warning C4275: 非 dll 接口 class“mray::video::IGStreamerPlayer”用作 dll 接口 class“mray::video::GstNetworkMultipleVideoPlayer”的基
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\IGStreamerPlayer.h(52): message : 参见“mray::video::IGStreamerPlayer”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkMultipleVideoPlayer.h(18): message : 参见“mray::video::GstNetworkMultipleVideoPlayer”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkMultipleVideoPlayer.cpp(451,19): warning C4101: “ret”: 未引用的局部变量
+  GstNetworkVideoPlayer.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\gio/gdatagrambased.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  GstNetworkVideoStreamer.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\gio/gdatagrambased.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  GstPipelineHandler.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\gio/gdatagrambased.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(90,54): warning C4244: “参数”: 从“__int64”转换到“guint”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(342,3): warning C4244: “参数”: 从“gint64”转换到“long”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(360,13): warning C4244: “return”: 从“__int64”转换到“long”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(367,13): warning C4244: “return”: 从“__int64”转换到“long”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(375,16): warning C4101: “state”: 未引用的局部变量
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(439,18): warning C4244: “=”: 从“GstClockTime”转换到“mray::ulong”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(440,18): warning C4244: “=”: 从“GstClockTime”转换到“mray::ulong”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(538,31): warning C4244: “参数”: 从“gint64”转换到“long”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(699,47): warning C4244: “return”: 从“GstClockTime”转换到“mray::ulong”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp(725,12): warning C4101: “res”: 未引用的局部变量
+  GstPlayerBin.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  正在生成代码...
+  正在编译...
+  IAppSinkHandler.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  IGStreamerPlayer.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  IGStreamerStreamer.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  NetworkAudioGrabber.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  PlayersAPI.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkMultipleVideoPlayer.h(19,1): warning C4275: 非 dll 接口 class“mray::video::IGStreamerPlayer”用作 dll 接口 class“mray::video::GstNetworkMultipleVideoPlayer”的基
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\IGStreamerPlayer.h(52): message : 参见“mray::video::IGStreamerPlayer”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkMultipleVideoPlayer.h(18): message : 参见“mray::video::GstNetworkMultipleVideoPlayer”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\PlayersAPI.cpp(117,34): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\PlayersAPI.cpp(165,34): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\PlayersAPI.cpp(362,34): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+  StreamersAPI.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UnityHelpers.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.cpp(79,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.cpp(89,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  UnityImageGrabber.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  VideoAppSinkHandler.cpp
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst/video/video-anc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(70,74): warning C4244: “参数”: 从“gsize”转换到“int”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(131,1): warning C4311: “类型强制转换”: 从“GstBuffer *”到“mray::ulong”的指针截断
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(131,1): warning C4302: “类型强制转换”: 从“GstBuffer *”到“mray::ulong”截断
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(265,14): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“const gsize”
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(265,14): message : 请考虑在格式字符串中使用“%lld”
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(265,14): message : 请考虑在格式字符串中使用“%Id”
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(265,14): message : 请考虑在格式字符串中使用“%I64d”
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(306,14): warning C4244: “初始化”: 从“gsize”转换到“guint”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(389,66): warning C4311: “类型强制转换”: 从“GstBuffer *”到“mray::ulong”的指针截断
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(389,66): warning C4302: “类型强制转换”: 从“GstBuffer *”到“mray::ulong”截断
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp(467,59): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  rtp.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\rtp.cpp(77,78): warning C4267: “return”: 从“size_t”转换到“unsigned short”，可能丢失数据
+  PixelUtil.cpp
+  NetAddress.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\NetAddress.cpp(70,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\NetAddress.cpp(98,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  IThreadManager.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  ImageInfo.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\ImageInfo.cpp(227,80): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\ImageInfo.cpp(228,95): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\ImageInfo.cpp(229,80): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  RenderAPI.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  UnityGraphicsDevice.cpp
+  RenderAPI_OpenGLCoreES.cpp
+  RenderAPI_OpenGL2.cpp
+  Win32Network.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(39,15): warning C4996: 'WSAEnumProtocolsA': Use WSAEnumProtocolsW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(55,11): warning C4996: 'WSAEnumProtocolsA': Use WSAEnumProtocolsW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(104,8): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(106,16): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(124,13): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(127,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(137,10): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(141,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(212,29): warning C4311: “类型强制转换”: 从“char *”到“mray::ulong”的指针截断
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(212,29): warning C4302: “类型强制转换”: 从“char *”到“mray::ulong”截断
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(211,14): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(231,14): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(239,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp(326,25): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+  Win32UDPClient.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32UDPClient.cpp(87,42): warning C4996: '_WSAPROTOCOL_INFOA::iProtocol': Use WSAPROTOCOL_INFOW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32UDPClient.cpp(88,44): warning C4996: '_WSAPROTOCOL_INFOA::dwServiceFlags1': Use WSAPROTOCOL_INFOW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32UDPClient.cpp(76,3): warning C4996: 'WSAEnumProtocolsA': Use WSAEnumProtocolsW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32UDPClient.cpp(82,17): warning C4996: 'WSAEnumProtocolsA': Use WSAEnumProtocolsW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32UDPClient.cpp(126,12): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32UDPClient.cpp(395,21): warning C4244: “参数”: 从“mray::network::SocketHandle”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  WinThread.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  WinThreadManager.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  WinMutex.cpp
+  LocalAudioGrabber.cpp
+  GstAppAudioPlayer.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.h(44,14): warning C4251: “LogManager::logFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“LogManager”的客户端使用
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib/gtestutils.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UnityAudioGrabber.cpp
+  RenderAPI_D3D11.cpp
+E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI_D3D11.cpp(121,27): warning C4101: “mappedResource”: 未引用的局部变量
+  正在生成代码...
+    正在创建库 E:/Unity/mrayGStreamerUnity-master/Plugin/Debug/GStreamerUnityPlugin.lib 和对象 E:/Unity/mrayGStreamerUnity-master/Plugin/Debug/GStreamerUnityPlugin.exp
+  GStreamerUnityPlugin.vcxproj -> E:\Unity\mrayGStreamerUnity-master\Plugin\Debug\GStreamerUnityPlugin.dll

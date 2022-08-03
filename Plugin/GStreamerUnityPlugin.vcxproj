@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED182D54-37D7-3743-9868-3F3F654A9227}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GStreamerUnityPlugin</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Unity\mrayGStreamerUnity-master\Plugin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GStreamerUnityPlugin.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GStreamerUnityPlugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Unity\mrayGStreamerUnity-master\Plugin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GStreamerUnityPlugin.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GStreamerUnityPlugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Unity\mrayGStreamerUnity-master\Plugin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GStreamerUnityPlugin.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GStreamerUnityPlugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Unity\mrayGStreamerUnity-master\Plugin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GStreamerUnityPlugin.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GStreamerUnityPlugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_UNITY_GRABBER;USE_UNITY_NETWORK;GSTREAMERUNITYPLUGIN_EXPORTS;CMAKE_INTDIR="Debug";GStreamerUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_UNITY_GRABBER;USE_UNITY_NETWORK;GSTREAMERUNITYPLUGIN_EXPORTS;CMAKE_INTDIR=\"Debug\";GStreamerUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gstapp-1.0.lib;gstaudio-1.0.lib;gstvideo-1.0.lib;gstbase-1.0.lib;gstreamer-1.0.lib;gobject-2.0.lib;glib-2.0.lib;intl.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/gstreamer/1.0/msvc_x86_64/lib;C:/gstreamer/1.0/msvc_x86_64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Unity/mrayGStreamerUnity-master/Plugin/Debug/GStreamerUnityPlugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Unity/mrayGStreamerUnity-master/Plugin/Debug/GStreamerUnityPlugin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_UNITY_GRABBER;USE_UNITY_NETWORK;GSTREAMERUNITYPLUGIN_EXPORTS;CMAKE_INTDIR="Release";GStreamerUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_UNITY_GRABBER;USE_UNITY_NETWORK;GSTREAMERUNITYPLUGIN_EXPORTS;CMAKE_INTDIR=\"Release\";GStreamerUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gstapp-1.0.lib;gstaudio-1.0.lib;gstvideo-1.0.lib;gstbase-1.0.lib;gstreamer-1.0.lib;gobject-2.0.lib;glib-2.0.lib;intl.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/gstreamer/1.0/msvc_x86_64/lib;C:/gstreamer/1.0/msvc_x86_64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Unity/mrayGStreamerUnity-master/Plugin/Release/GStreamerUnityPlugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Unity/mrayGStreamerUnity-master/Plugin/Release/GStreamerUnityPlugin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_UNITY_GRABBER;USE_UNITY_NETWORK;GSTREAMERUNITYPLUGIN_EXPORTS;CMAKE_INTDIR="MinSizeRel";GStreamerUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_UNITY_GRABBER;USE_UNITY_NETWORK;GSTREAMERUNITYPLUGIN_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";GStreamerUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gstapp-1.0.lib;gstaudio-1.0.lib;gstvideo-1.0.lib;gstbase-1.0.lib;gstreamer-1.0.lib;gobject-2.0.lib;glib-2.0.lib;intl.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/gstreamer/1.0/msvc_x86_64/lib;C:/gstreamer/1.0/msvc_x86_64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Unity/mrayGStreamerUnity-master/Plugin/MinSizeRel/GStreamerUnityPlugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Unity/mrayGStreamerUnity-master/Plugin/MinSizeRel/GStreamerUnityPlugin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_UNITY_GRABBER;USE_UNITY_NETWORK;GSTREAMERUNITYPLUGIN_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";GStreamerUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_UNITY_GRABBER;USE_UNITY_NETWORK;GSTREAMERUNITYPLUGIN_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";GStreamerUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include;C:\gstreamer\1.0\msvc_x86_64\include\orc-0.4;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;E:\Unity\mrayGStreamerUnity-master\Plugin\.\includes;E:\Unity\mrayGStreamerUnity-master\Plugin\.\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gstapp-1.0.lib;gstaudio-1.0.lib;gstvideo-1.0.lib;gstbase-1.0.lib;gstreamer-1.0.lib;gobject-2.0.lib;glib-2.0.lib;intl.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/gstreamer/1.0/msvc_x86_64/lib;C:/gstreamer/1.0/msvc_x86_64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Unity/mrayGStreamerUnity-master/Plugin/RelWithDebInfo/GStreamerUnityPlugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Unity/mrayGStreamerUnity-master/Plugin/RelWithDebInfo/GStreamerUnityPlugin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Unity/mrayGStreamerUnity-master/Plugin -BE:/Unity/mrayGStreamerUnity-master/Plugin --check-stamp-file E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPkgConfig.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeCCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeCXXCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeRCCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Unity/mrayGStreamerUnity-master/Plugin -BE:/Unity/mrayGStreamerUnity-master/Plugin --check-stamp-file E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPkgConfig.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeCCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeCXXCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeRCCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Unity/mrayGStreamerUnity-master/Plugin -BE:/Unity/mrayGStreamerUnity-master/Plugin --check-stamp-file E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPkgConfig.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeCCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeCXXCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeRCCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Unity/mrayGStreamerUnity-master/Plugin -BE:/Unity/mrayGStreamerUnity-master/Plugin --check-stamp-file E:/Unity/mrayGStreamerUnity-master/Plugin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\FindPkgConfig.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeCCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeCXXCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeRCCompiler.cmake;E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\3.24.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\AudioAppSinkHandler.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CMyListener.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CMySink.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CMySrc.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CoreAPI.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CustomAudioGrabber.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GStreamerCore.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstAppNetAudioStreamer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstAudioSampler.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomDataStreamer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomDataPlayer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomVideoPlayer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomVideoStreamer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioPlayer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioStreamer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkMultipleVideoPlayer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkVideoPlayer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkVideoStreamer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPlayerBin.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\IAppSinkHandler.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\IGStreamerPlayer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\IGStreamerStreamer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\NetworkAudioGrabber.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\PlayersAPI.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\StreamersAPI.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityImageGrabber.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\rtp.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\PixelUtil.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\NetAddress.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\IThreadManager.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\ImageInfo.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\UnityGraphicsDevice.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI_OpenGLCoreES.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI_OpenGL2.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32UDPClient.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\WinThread.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\WinThreadManager.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\WinMutex.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\LocalAudioGrabber.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstAppAudioPlayer.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityAudioGrabber.cpp" />
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI_D3D11.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Unity\mrayGStreamerUnity-master\Plugin\ZERO_CHECK.proj">
+      <Project>{833ECF7A-A4B4-3A3A-A7C8-EDDEF18BCB7B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

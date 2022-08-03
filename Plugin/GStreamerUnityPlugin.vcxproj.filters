@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\AudioAppSinkHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CMyListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CMySink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CMySrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CoreAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\CustomAudioGrabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GStreamerCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstAppNetAudioStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstAudioSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomDataStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomDataPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomVideoPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstCustomVideoStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkAudioStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkMultipleVideoPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkVideoPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstNetworkVideoStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPipelineHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstPlayerBin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\IAppSinkHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\IGStreamerPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\IGStreamerStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\NetworkAudioGrabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\PlayersAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\StreamersAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityImageGrabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\VideoAppSinkHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\rtp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\PixelUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\NetAddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\IThreadManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\ImageInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\UnityGraphicsDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI_OpenGLCoreES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI_OpenGL2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32Network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\Win32UDPClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\WinThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\WinThreadManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\Win32\WinMutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\LocalAudioGrabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\GstAppAudioPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\sources\UnityAudioGrabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Unity\mrayGStreamerUnity-master\Plugin\includes\RenderAPI_D3D11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Unity\mrayGStreamerUnity-master\Plugin\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EE12BAEB-C361-367B-92B3-07D177E41959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
